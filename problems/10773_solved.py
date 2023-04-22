@@ -1,8 +1,9 @@
-K = int(input())
+import sys
+K = int(sys.stdin.readline())
 
 nums = []
 for _ in range(K):
-    N = int(input())
+    N = int(sys.stdin.readline())
     if N == 0:
         nums.pop(-1)
     else:
